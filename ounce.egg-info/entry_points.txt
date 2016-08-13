@@ -1,0 +1,3 @@
+[console_scripts]
+ounce = ounce.cli:main
+

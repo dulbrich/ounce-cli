@@ -7,7 +7,7 @@ from subprocess import call
 
 from setuptools import Command, find_packages, setup
 
-from skele import __version__
+from ounce import __version__
 
 
 this_dir = abspath(dirname(__file__))
@@ -33,13 +33,13 @@ class RunTests(Command):
 
 
 setup(
-    name = 'skele',
+    name = 'ounce',
     version = __version__,
-    description = 'A skeleton command line program in Python.',
+    description = 'An ounce of prevention is worth a pound of cure.',
     long_description = long_description,
-    url = 'https://github.com/rdegges/skele-cli',
-    author = 'Randall Degges',
-    author_email = 'r@rdegges.com',
+    url = 'https://github.com/dulbrich/ounce-cli',
+    author = 'David Ulbrich',
+    author_email = 'david@ulbrichpro.com',
     license = 'UNLICENSE',
     classifiers = [
         'Intended Audience :: Developers',
@@ -63,7 +63,7 @@ setup(
     },
     entry_points = {
         'console_scripts': [
-            'skele=skele.cli:main',
+            'ounce=ounce.cli:main',
         ],
     },
     cmdclass = {'test': RunTests},

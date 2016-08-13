@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+ounce/__init__.py
+ounce/cli.py
+ounce/commands/__init__.py
+ounce/commands/add.py
+ounce/commands/base.py
+ounce/commands/hello.py
+ounce/commands/install.py
+ounce/commands/me.py
+tests/test_cli.py
+tests/commands/test_hello.py

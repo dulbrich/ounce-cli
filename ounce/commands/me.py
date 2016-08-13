@@ -1,10 +1,10 @@
-"""The hello command."""
+"""The me command."""
 
 
 from .base import Base
 
 
-class Hello(Base):
+class Me(Base):
     """Say hello, world!"""
 
     def run(self):
