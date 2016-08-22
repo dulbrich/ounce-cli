@@ -5,3 +5,4 @@ on run {targetBuddyPhone, targetMessage}
         send targetMessage to targetBuddy
     end tell
 end run
+# http://stackoverflow.com/questions/11812184/how-to-send-an-imessage-text-with-applescript-only-in-provided-service
