@@ -5,7 +5,7 @@ from .base import Base
 
 
 class Me(Base):
-    """Say hello, world!"""
+    """ounce me"""
 
     def run(self):
-        print 'Hello, world!'
+        print 'OUNCE!'
